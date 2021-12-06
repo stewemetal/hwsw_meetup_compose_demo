@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ComposeDemo" parent="Theme.MaterialComponents.Light">
+        <item name="android:statusBarColor">@color/secondary_blue</item>
+        <item name="toolbarStyle">@style/Theme.ComposeDemo.AppBarOverlay</item>
+    </style>
+
+    <style name="Theme.ComposeDemo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ComposeDemo.AppBarOverlay" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/primary_blue</item>
+    </style>
+
+    <style name="Theme.ComposeDemo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
